@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <title>Payment Gateway | MetaShops</title>
+    <!-- <link href="images/favicon.png" rel="icon" /> -->
+    <!-- bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- / bootstrap css -->
+    <!--  icon css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/flaticon.css" rel="stylesheet" />
+    <link href="css/icofont.css" rel="stylesheet" />
+    <!-- / icon css -->
+    <!-- / font css -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- / font css -->
+    <!--  style css -->
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- / style css -->
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <form action="" method="post">
+            <!-- <h1>Sign Up</h1> -->
+            <fieldset>
+              <legend class="heading pb-2">
+                <span class="number"
+                  ><span style="visibility: hidden">-</span></span
+                >
+                Payment Gateway
+              </legend>
+              <div class="col-md-6">
+                <label for="id">Owners Id:</label>
+                <input type="text" id="owner-id" name="owner_id" />
+              </div>
+              <div class="col-md-6">
+                <label for="iban" class="form-label"
+                  >IBAN (picture of IBAN card):</label
+                >
+                <input
+                  class="form-control form-control-lg"
+                  type="file"
+                  id="com-reg"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="id">IBAN Number:</label>
+                <input type="text" id="iban-number" name="iban_number" />
+              </div>
+              <div class="col-md-6">
+                <label for="iban-cert" class="form-label"
+                  >IBAN Certificate:</label
+                >
+                <input
+                  class="form-control form-control-lg"
+                  type="file"
+                  id="iban-cert"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="id">Bank Account:</label>
+                <input type="text" id="bank-acc" name="bank_acc" />
+              </div>
+              <div class="col-md-6">
+                <label for="iban-cert" class="form-label"
+                  >Education License:</label
+                >
+                <input
+                  class="form-control form-control-lg"
+                  type="file"
+                  id="edu-lic"
+                />
+              </div>
+            </fieldset>
+            <div
+              class="col-md-12"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+              "
+            >
+              <div class="col-md-3">
+                <button type="submit" style="margin-top: 30px">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="css/bootstrap/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
